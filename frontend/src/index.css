@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+
+
+.center-screen {
+  @apply flex items-center justify-center min-h-screen;
+}
+
+.form-container {
+  @apply w-full max-w-lg mx-auto px-4;
+}
+
+.page-title {
+  @apply text-4xl font-bold;
+}
+
+.gradient-text {
+  @apply text-blue-400;
+}
+
+.subtitle {
+  @apply text-gray-300 mt-2 text-lg;
+}
+
+.glass-card {
+  @apply backdrop-blur-xl bg-gray-900/80 border border-gray-700/50 rounded-3xl p-8 shadow-2xl;
+}
+
+.error-box {
+  @apply text-red-400 text-center mb-4 p-3 bg-red-900/30 rounded-lg border border-red-500/30;
+}
+
+.form-group {
+  @apply space-y-6;
+}
+
+.input-field {
+  @apply w-full bg-gray-800/50 border border-gray-600/50 rounded-xl px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent;
+}
+
+.btn-primary {
+  @apply w-full bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl shadow-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-200;
+}
+
+.link-text {
+  @apply text-blue-400 hover:text-blue-300 font-medium;
+}
+
+.nav-glass {
+  @apply sticky top-0 z-40 backdrop-blur-xl bg-gray-900/90 border-b border-gray-700/50;
+}
+
+.nav-brand {
+  @apply text-2xl font-bold tracking-tight;
+}
+
+.nav-btn {
+  @apply text-sm px-4 py-2 rounded-xl transition-all duration-200 font-medium;
+}
+
+.btn-add {
+  @apply bg-blue-600 text-white shadow-lg hover:bg-blue-700 transform hover:scale-105;
+}
+
+.btn-secondary {
+  @apply bg-gray-800/50 border border-gray-600/50 text-white hover:bg-gray-700/50 backdrop-blur-sm;
+}
+
+.btn-register {
+  @apply bg-purple-600 text-white shadow-lg hover:bg-purple-700 transform hover:scale-105;
+}
+
+.dashboard-header {
+  @apply text-center mb-8;
+}
+
+.dashboard-title {
+  @apply text-4xl font-bold mb-2;
+}
+
+.toolbar {
+  @apply backdrop-blur-xl bg-gray-900/80 border border-gray-700/50 rounded-2xl p-4 shadow-xl;
+}
+
+.toolbar-grid {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-4;
+}
+
+.tasks-grid {
+  @apply grid gap-6 sm:grid-cols-2 lg:grid-cols-3;
+}
+
+.empty-state {
+  @apply col-span-full text-center text-gray-300 py-12;
+}
+
+.empty-icon {
+  @apply text-6xl mb-4;
+}
+
+.empty-title {
+  @apply text-xl font-medium;
+}
+
+.empty-subtitle {
+  @apply text-gray-400;
+}
+
+.pagination {
+  @apply backdrop-blur-xl bg-gray-900/80 border border-gray-700/50 rounded-2xl p-4 shadow-xl;
+}
+
+.pagination-info {
+  @apply text-gray-300;
+}
+
+.pagination-controls {
+  @apply flex items-center gap-3;
+}
+
+.btn-nav {
+  @apply px-4 py-2 bg-gray-800/50 border border-gray-600/50 text-white rounded-xl hover:bg-gray-700/50 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200;
+}
+
+.select-control {
+  @apply bg-gray-800/50 border border-gray-600/50 text-white rounded-xl px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent;
+}
+
+.select-option {
+  @apply bg-gray-800 text-white;
+}
+
+
